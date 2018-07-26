@@ -1,4 +1,5 @@
 .main-title {
+    clear: both;
     width: 75%;
     margin: 20px auto;
     text-align: center;
@@ -12,16 +13,19 @@
     margin: 0 auto;
     width: 100%;
     text-align: left;
-    color: white;
+    color: #EEE;
     height: 300px;
-    overflow: hidden;*/
+    overflow: hidden;
+    background-color: #008800;
 }
 
 #bamboo-image {
-    position: absolute;
+    position: relative;
+    min-width: 450px;
     width: 100%;
     left: 0;
-    top: -500px;
+    bottom: 0px;
+    opacity: .75;
 }
 
 .image-container h1 {
