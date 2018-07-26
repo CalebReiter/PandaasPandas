@@ -6,9 +6,10 @@
 }
 
 .card{
-	width: 25%;
+	width: 22%;
 	float: left;
 	line-height: 1.5;
+	margin-right: 3%;
 }
 
 .card p, .card a{
@@ -30,4 +31,11 @@
 
 .card img{
 	float: left;
+}
+
+@media (max-width: 650px){
+	.card{
+		float: none;
+		width: 100%;
+	}
 }
