@@ -1,0 +1,33 @@
+#content{
+	width: = 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin: 0;
+}
+
+.card{
+	width: 25%;
+	float: left;
+	line-height: 1.5;
+}
+
+.card p, .card a{
+	color: #9D9B9B;
+}
+
+.card p{
+	clear: both;
+}
+
+.card h3{
+	color: #5E5C5C;
+}
+
+.card a{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.card img{
+	float: left;
+}
