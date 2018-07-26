@@ -1,0 +1,49 @@
+header {
+	/*margin-top:-6px;*/
+	height: 90px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+16,eeeeee+89,dddddd+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 16%, #eeeeee 89%, #dddddd 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 16%,#eeeeee 89%,#dddddd 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 16%,#eeeeee 89%,#dddddd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+}
+	
+.masterhead {
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 90px;
+}
+
+.navbar {
+	position: inherit;
+	top: -6px;
+	float: right;
+}
+
+.navbar .link-list {
+	padding-top: 20px;
+}
+
+.navbar .link-list li {
+	display: inline;
+	padding: 15px 10px;
+}
+
+.navbar .link-list li  a {
+	text-decoration: none;
+	color: #333;
+	
+}
+
+.navbar .link-list li:first-child {
+	background: #13b6eb;
+}
+
+.navbar .link-list li:first-child a {
+	color: #EEE;
+}
