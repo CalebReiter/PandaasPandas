@@ -1,3 +1,5 @@
+@import "./header.css";
+
 *,
 *::before,
 *::after {
@@ -8,30 +10,4 @@
 
 body {
 	box-sizing: border-box;
-}
-
-
-
-header {
-	height: 90px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+16,eeeeee+89,dddddd+100 */
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 16%, #eeeeee 89%, #dddddd 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #ffffff 16%,#eeeeee 89%,#dddddd 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #ffffff 16%,#eeeeee 89%,#dddddd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
-}
-	
-.logo {
-	height: 90px;
-}
-
-.navbar {
-	float: right;
-}
-
-.navbar .link-list li {
-	display: inline;
-	padding: 15px 10px;
-
 }
