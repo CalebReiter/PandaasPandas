@@ -1,0 +1,40 @@
+.main-title {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+    color: #777;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+}
+
+.image-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    color: white;
+    height: 300px;
+    overflow: hidden;*/
+}
+
+#bamboo-image {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -500px;
+}
+
+.image-container h1 {
+    position: absolute;
+    top: 90px;
+    left: 20%;
+    font-size: 40px;
+}
+
+.image-container h4 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    max-width: 60%;
+    font-size: 18px;
+}
