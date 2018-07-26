@@ -47,3 +47,32 @@ header {
 .navbar .link-list li:first-child a {
 	color: #EEE;
 }
+
+select{
+	visibility: hidden;
+}
+
+@media (max-width: 1000px){
+	nav{
+		visibility: hidden;
+	}
+
+	select{
+		visibility: visible;
+		position: absolute;
+		bottom: 50px;
+		right: 40px;
+	}
+
+	header{
+		height: 130px;
+	}
+}
+
+@media(max-width: 500px){
+	select{
+		position: absolute;
+		bottom: 0;
+		left: 40px;
+	}
+}
