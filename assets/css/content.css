@@ -31,3 +31,10 @@
 .card img{
 	float: left;
 }
+
+@media (max-width: 650px){
+	.card{
+		float: none;
+		width: 100%;
+	}
+}
