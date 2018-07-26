@@ -42,3 +42,14 @@
     max-width: 60%;
     font-size: 18px;
 }
+
+@media (max-width: 1000px) {
+
+    .image-container h1 {
+        left: 10%;
+    }
+
+    .image-container h4 {
+        left: 10%;
+    }
+}
