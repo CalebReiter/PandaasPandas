@@ -6,6 +6,7 @@
 }
 
 .card{
+	margin-top: 20px;
 	width: 22%;
 	float: left;
 	line-height: 1.5;
@@ -26,6 +27,7 @@
 
 .card a{
 	margin-top: 10px;
+	margin-bottom: 10px;
 	display: inline-block;
 }
 
@@ -33,7 +35,7 @@
 	float: left;
 }
 
-@media (max-width: 650px){
+@media (max-width: 1000px){
 	.card{
 		float: none;
 		width: 100%;
